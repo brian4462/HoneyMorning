@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:text="추천 리스트 분류 선택"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/switch_recommend_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="하루 운동 추천리스트" />
+
+    <Switch
+        android:id="@+id/switch_recommend_life"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="일상의 소소한 추천리스트" />
+
+    <Switch
+        android:id="@+id/switch_recommend_knowledge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="상식을 넓히는 추천리스트" />
+
+    <Switch
+        android:id="@+id/switch_recommend_fun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="병맛스러운 추천리스트" />
+
+    <Switch
+        android:id="@+id/switch_recommend_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="학생들을 위한 추천리스트" />
+
+    <Switch
+        android:id="@+id/switch_recommend_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="직장인들을 위한 추천리스트" />
+
+    <Switch
+        android:id="@+id/switch_recommend_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:padding="15dp"
+        android:text="나만의 추천리스트" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_select_random_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numberPicker"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="확인" />
+
+    </LinearLayout>
+</android.widget.LinearLayout>

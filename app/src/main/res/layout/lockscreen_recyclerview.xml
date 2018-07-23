@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regularlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="right"
+        android:text="·"
+        android:textColor="@color/colorTextTitle"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:text="TextView"
+        android:textColor="@color/colorTextTitle" />
+</android.widget.LinearLayout>
