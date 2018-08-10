@@ -9,4 +9,6 @@
     <color name="colorText">#f5ead4</color>
     <color name="colorbackground">#83353535</color>
     <color name="background_light">#ccffffff</color>
+    <color name="ColorButton">#ff9c40</color>
+    <color name="ColorIcon">#ffe4cc</color>
 </resources>

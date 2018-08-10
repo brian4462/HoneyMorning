@@ -11,8 +11,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 import com.jica.honeymorning.ScreenLock.SettingLockScreenActivity;
-import com.jica.honeymorning.Todo.TodoActivity;
 import com.jica.honeymorning.calendar.CalendarViewActivity;
+import com.jica.honeymorning.todo.TodoViewActivity;
 import com.jica.honeymorning.tutorial.TutorialActivity;
 
 
@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
             Button curButton = (Button)view;
             Intent intent = null;
             if(curButton == btnTodo){
+                intent= new Intent(getApplicationContext(), TodoViewActivity.class);
             }else if(curButton == btnCalendar){
                 intent = new Intent(getApplicationContext(), CalendarViewActivity.class);
             }else if(curButton == btnLockScreen){

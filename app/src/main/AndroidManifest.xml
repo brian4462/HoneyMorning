@@ -60,11 +60,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".Todo.TodoActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
         <activity
             android:name=".calendar.CalendarViewActivity"
             android:screenOrientation="portrait"
@@ -88,6 +83,12 @@
             android:backgroundDimEnabled="true"></activity>
         <activity android:name=".SettingActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".todo.TodoViewActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

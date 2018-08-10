@@ -60,6 +60,4 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         items.remove(position);
         return item_id;
     }
-
-
 }
